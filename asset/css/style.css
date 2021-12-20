@@ -1,0 +1,81 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 70px;
+    background-color: #333;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    background-color: #ccc;
+    height: 600px;
+}
+
+.content-left {
+    width: 30%;
+    background: url(/asset/image/repeat-bg1.jpg) repeat;
+    background-size: 200px;
+}
+
+.location-list {
+    list-style-type: none;
+    padding: 30px 0 0 30px;
+}
+
+.location-list li a {
+    color: blue;
+    font-size: 50px;
+}
+
+.location-list li a:focus {
+    color: coral;
+}
+
+.content-right {
+    padding: 30px 0 0 30px;
+    width: 70%;
+}
+
+.bg-london {
+    background: url(/asset/image/london.jpg) no-repeat center / cover;
+}
+
+.bg-tokyo {
+    background: url(https://vcdn-dulich.vnecdn.net/2021/02/02/Tokyo-dong-duc-1436-1612237924.jpg) no-repeat center / cover;
+}
+
+.bg-paris {
+    background: url(https://www.cathaypacific.com/content/dam/destinations/paris/cityguide-gallery/paris-cityscape-920x500.jpg) no-repeat center / cover;
+}
+
+.main-heading {
+    font-size: 100px;
+    margin: 0;
+    color: #000;
+}
+
+.content-right p {
+    font-size: 30px;
+    color: #000;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 150px;
+    background-color: beige;
+}
